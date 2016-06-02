@@ -81,7 +81,6 @@ public class AAFilter {
 						else if((tempwei>=62.0908-range)&&(tempwei<=62.0908+range)){
 							foundDA1Can(ip, ip.loAA.get(i), "Glycine");
 						}
-						///////////////////////////////////////////////
 					}
 					// Alanine
 					else if((tempwei>=72.0813-range)&&(tempwei<=76.1064+range)){
@@ -93,7 +92,6 @@ public class AAFilter {
 						else if((tempwei>=76.1064-range)&&(tempwei<=76.1064+range)){
 							foundDA1Can(ip, ip.loAA.get(i), "Alanine");
 						}
-						///////////////////////////////////////////////
 					}
 					// Proline, Serine
 					else if((tempwei>=84.0813-range)&&(tempwei<=92.1013+range)){
@@ -107,7 +105,6 @@ public class AAFilter {
 							else if((tempwei>=88.0762-range)&&(tempwei<=88.0762+range)){
 								foundHA1Can(ip, ip.loAA.get(i), "Serine");
 							}
-							///////////////////////////////////////////////
 						}
 						// DA1 of Proline, Serine
 						else if((tempwei>=88.1064-range)&&(tempwei<=92.1013+range)){
@@ -119,7 +116,6 @@ public class AAFilter {
 							else if((tempwei>=92.1013-range)&&(tempwei<=92.1013+range)){
 								foundDA1Can(ip, ip.loAA.get(i), "Serine");
 							}
-							///////////////////////////////////////////////
 						}
 					}
 					//Valine, Cysteine, Threonine
@@ -138,7 +134,6 @@ public class AAFilter {
 							else if((tempwei>=102.0919-range)&&(tempwei<=102.0919+range)){
 								foundHA1Can(ip, ip.loAA.get(i), "Threonine");
 							}
-							///////////////////////////////////////////////
 						}
 						// DA1 of Valine, Cysteine, Threonine
 						else if((tempwei>=104.1377-range)&&(tempwei<=106.117+range)){
@@ -154,7 +149,6 @@ public class AAFilter {
 							else if((tempwei>=106.117-range)&&(tempwei<=106.117+range)){
 								foundDA1Can(ip, ip.loAA.get(i), "Threonine");
 							}
-							///////////////////////////////////////////////
 						}
 					}
 					// Isoleucine/Leucine, Asparagine, Aspartate
@@ -173,7 +167,6 @@ public class AAFilter {
 							else if((tempwei>=116.0712-range)&&(tempwei<=116.0712+range)){
 								foundHA1Can(ip, ip.loAA.get(i), "Aspartate");
 							}
-							///////////////////////////////////////////////
 						}
 						// DA1 of Isoleucine/Leucine, Asparagine, Aspartate
 						else if((tempwei>=118.1534-range)&&(tempwei<=120.0963+range)){
@@ -189,7 +182,6 @@ public class AAFilter {
 							else if((tempwei>=120.0963-range)&&(tempwei<=120.0963+range)){
 								foundDA1Can(ip, ip.loAA.get(i), "Aspartate");
 							}
-							///////////////////////////////////////////////
 						}
 					}
 				}else if((tempwei>=129.1028-range)&&(tempwei<=191.1486+range)){
@@ -209,7 +201,6 @@ public class AAFilter {
 							else if((tempwei>=132.0847-range)&&(tempwei<=132.0847+range)){
 								foundHA1Can(ip, ip.loAA.get(i), "Methionine");
 							}
-							///////////////////////////////////////////////
 						}
 						// DA1 of Glutamine, Glutamate, Methionine
 						else if((tempwei>=133.1279-range)&&(tempwei<=136.1098+range)){
@@ -225,7 +216,6 @@ public class AAFilter {
 							else if((tempwei>=136.1098-range)&&(tempwei<=136.1098+range)){
 								foundDA1Can(ip, ip.loAA.get(i), "Methionine");
 							}
-							///////////////////////////////////////////////
 						}
 						// HA1 of Histidine
 						else if((tempwei>=138.1031-range)&&(tempwei<=138.1031+range)){
