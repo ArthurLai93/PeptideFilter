@@ -1,8 +1,6 @@
 package readWithScanner;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 import javax.swing.DefaultListModel;
 
@@ -12,24 +10,6 @@ public class AAFilter {
 	// input: loIP => list of ionized peptides    and    amino acid filter 
 	// fun: for every peptide, see if desired aa is in its list, if so, add IP to list of desired ionized peptides loDIP
 	// output: list of Ionized Peptides that have the desired amino acid filter
-	/*public static DefaultListModel<IonizedPeptide> filterSearch(DefaultListModel<IonizedPeptide> loIP, String s, boolean ha){
-		DefaultListModel<IonizedPeptide> temploDIP = new DefaultListModel<>();
-
-		if (ha) {
-			for (int i = 0; i < loIP.size(); i++) {
-				if (loIP.get(i).containedHA1CAN.contains(s.trim())) {
-					temploDIP.addElement(loIP.get(i));
-				}
-			}
-		}else{
-			for (int i = 0; i < loIP.size(); i++) {
-				if (loIP.get(i).containedDA1CAN.contains(s.trim())) {
-					temploDIP.addElement(loIP.get(i));
-				}
-			}
-		}
-		return temploDIP;
-	}*/
 	
 	public static DefaultListModel<IonizedPeptide> filterSearch(DefaultListModel<IonizedPeptide> model, List<String> lof, boolean ha){
 		DefaultListModel<IonizedPeptide> temploDIP = new DefaultListModel<>();

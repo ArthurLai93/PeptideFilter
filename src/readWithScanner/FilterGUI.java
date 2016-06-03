@@ -1,13 +1,10 @@
 package readWithScanner;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
-import java.awt.FlowLayout;
 import java.awt.HeadlessException;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
 import javax.swing.JList;
 import javax.swing.JButton;
 
@@ -24,27 +21,14 @@ import javax.swing.JCheckBox;
 import javax.swing.JFileChooser;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
-import javax.swing.JComboBox;
 import javax.swing.JToggleButton;
 import javax.swing.JTextArea;
-import javax.swing.ListModel;
 import javax.swing.JScrollPane;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JTextPane;
-import javax.swing.JPopupMenu;
-
-import java.awt.Component;
-
-import javax.swing.JRadioButtonMenuItem;
 import javax.swing.border.CompoundBorder;
-import javax.swing.JInternalFrame;
-import java.awt.GridBagLayout;
 import javax.swing.JRadioButton;
 
 public class FilterGUI extends JFrame {
@@ -76,7 +60,6 @@ public class FilterGUI extends JFrame {
 	JTextArea haPFModelTEXT1 = new JTextArea();
 	JTextArea daIPModelTEXT = new JTextArea();
 	JTextArea daPFModelTEXT = new JTextArea();
-	// TODO things to include for log:  checkboxes for filter
 	JTextArea logText = new JTextArea();
 	List<String> lof = new ArrayList<String>();
 	JCheckBox chckbxAlanine = new JCheckBox("Alanine");
